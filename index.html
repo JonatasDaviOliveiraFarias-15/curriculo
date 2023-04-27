@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="main.js"></script>
+        <title>Currículum</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navegarbarra">
+                <div class="logo">
+                    <a href=""><img alt="logo" src="logo curriculum.png" width="435" height="53"></a>
+                </div>
+
+                <div class="navegarlista">
+                    <ul>
+                        <li><a href="#info" style="color: black;">Informações Pessoais</a></li>
+                        <li><a href="#escolaridade" style="color: black;">Escolaridade</a></li>
+                        <li><a href="#cursos" style="color: black;">Cursos</a></li>
+                        <li><a href="#experiencia" style="color: black;">Experiência Profissional</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="quadradinho1">
+            <table width="45%">
+                <tr>
+                    <td rowspan="2"><img align="center" valing="center" alt="foto 3x4" src="fotominha.jpeg" height="160" width="124"></td>
+                    <td align="left" valign="top" class="nomegrande"><h1 style="color: #2C88A7">Jônatas Davi Oliveira Farias</h1></td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.linkedin.com/in/jônatas-davi-oliveira-farias-651688272/" target="_blank" style="color: black;"><p>Clique aqui para acessar meu Linkedin</p></a></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="quadradinho2" onclick="mostra1('#resumo'); trocar1();"><img id="seta1" align="right" alt="seta" src="seta_baixo1.jpg" height="30" width="30">
+            <h2 style="color: #2C88A7;">Resumo feito pelo autor</h2>
+            <div class="esconder1" id="resumo">
+                <hr>
+                <div class="resumogrande">
+                    <p align="justify">Trabalhei na parte administrativa do conselho tutelar de Águas Claras atuando na área tecnológica do orgão, tenho ensino médio completo, atualmente cursando o curso de Tecnologia em Analise e Desenvolvimento de Sistemas na faculdade <i>Projeção</i>. Quando tive a oportunidade de ter meu primeiro contato com o mercado de trabalho, agarrei com afinco qualquer chance de obter conhecimento e experiências na área de tecnológia.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="quadradinho3" onclick="mostra2('#infopessoal'); trocar2();"><img id="seta2" align="right" alt="seta" src="seta_baixo2.jpg" height="30" width="30">
+            <h2 style="color: #2C88A7;">Informações Pessoais<a name="info"></a></h2></button>
+            <div class="esconder2" id="infopessoal">
+                <hr>
+                <ul>
+                    <br>
+                    <li><p><b>Nome Completo:</b> Jônatas Davi Oliveira Farias</p></li>
+                    <br>
+                    <li><p><b>Data de Nascimento:</b> 03/08/2005 (17 anos)</p></li>
+                    <br>
+                    <li><p><b>Sexo:</b> Masculino</p></li>
+                    <br>
+                    <li><p><b>Estado Civil:</b> Solteiro</p></li>
+                    <br>
+                    <li><p><b>Naturalidade:</b> Brasileiro</p></li>
+                    <br>
+                    <li><p><b>Endereço:</b> Rua 18 Norte, Lote 7, Ed.Riviera, Apartamento 1308, Águas Claras - DF</p></li>
+                    <br>
+                    <li><p><b>Celular:</b> (61) 98346-1524</p></li>
+                    <br>
+                    <li><p><b>E-mail:</b> jonatasdavifarias@gmail.com</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="quadradinho4" onclick="mostra3('#escolaridade'); trocar3();"><img id="seta3" align="right" alt="seta" src="seta_baixo3.jpg" height="30" width="30">
+            <h2 style="color: #2C88A7">Escolaridade<a name="escolaridade"></a></h2></button>
+            <div class="esconder3" id="escolaridade">
+                <hr>
+                <ul>
+                    <br>
+                    <li><p><b>Grau de Instrução:</b> Cursando ensino superior</p></li>
+                    <br>
+                    <li><p><b>Semestre:</b> 1ºSemestre</p></li>
+                    <br>
+                    <li><p><b>Curso:</b> Tecnologia em Análise e Desenvolvimento de Sistemas</p></li>
+                    <br>
+                    <li><p><b>Instituição de Ensino:</b> Faculdade Projeção - DF</p></li>
+                    <br>
+                    <li><p><b>Tipo de Curso:</b> Presencial</p></li>
+                    <br>
+                    <li><p><b>Horário de Estudo:</b> Manhã</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="quadradinho5" onclick="mostra4('#cursos'); trocar4();"><img id="seta4" align="right" alt="seta" src="seta_baixo4.jpg" height="30" width="30">
+            <h2 style="color: #2C88A7;">Cursos<a name="cursos"></a></h2></button>
+            <div class="esconder4" id="cursos">
+                <hr>
+                <ul>
+                    <br>
+                    <li><p><b>Idiomas:</b> Inglês(Intermediário) e Espanhol(Básico)</p></li>
+                    <br>
+                    <li><p><b>Conhecimentos em informática:</b> Banco de Dados(Básico), Programas Adobe(Intermediário), Digitação(Avançado), Excel(Intermediário), Power Point(Intermediário), Word(Intermediário), Introdução de Computação Gráfica, Arte Vetorial, Edição de Imagens, Desenho e Pintura Digital, 3D1, 3D2, 3D3, Composição de Vídeo e Efeitos, Edição de Vídeo, Game 2D1 e Game 2D2 (Escola Saga Brasília) </p></li>
+                    <br>
+                    <li><p><b>Línguas de programação e estilização:</b> HTML(Intermediário), CSS(Intermediário), JavaScript(Básico), Python(Intermediário), Lógica de Programação(Básico)</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="quadradinho6" onclick="mostra5('#e1'); trocar5();"><img id="seta5" align="right" alt="seta" src="seta_baixo5.jpg" height="30" width="30">
+            <h2 style="color: #2C88A7;">Experiência Profissional<a name="experiencia"></a></h2>
+            <div class="esconder5" id="e1">
+                <hr>
+                <ul>
+                    <br>
+                    <li><p><b>Empresa:</b> Conselho Tutelar - Águas Claras</p></li>
+                    <br>
+                    <li><p><b>Atribuições:</b> Atendimento e cadastro em sistema de pessoas atendidas pelo orgão</p></li>
+                    <br>
+                    <li><p><b>Período:</b> 12/2021 até 12/2022</p></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    </ul>
+</html>

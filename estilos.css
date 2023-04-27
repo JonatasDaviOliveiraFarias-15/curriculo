@@ -1,0 +1,163 @@
+body {
+    background-color: #fffdd0;
+}
+.resumogrande {
+    font-size: 20px;
+    padding: 10px;
+}
+.quadradinho h2 {
+    margin: 0px;
+}
+input {
+    display: block;
+}
+* {
+    margin: 0;
+}
+header {
+    background-color: white;
+    box-shadow: 0px 3px 10px black;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.navegarbarra {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.navegarlista {
+    display: flex;
+    align-items: center;
+}
+.navegarlista ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.navegarlista a {
+    margin: 0 15px;
+}
+.nomegrande {
+    width: 500px;
+}
+.quadradinho1 {
+    border: 1px solid #ccc;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 4px black;
+}
+.quadradinho2 {
+    border: 1px solid #ccc;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 4px 4px black;
+}
+.quadradinho3 {
+    border: 1px solid #ccc;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 4px 4px black;
+}
+.quadradinho4 {
+    border: 1px solid #ccc;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 4px 4px black;
+}
+.quadradinho5 {
+    border: 1px solid #ccc;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 4px 4px black;
+}
+.quadradinho6 {
+    border: 1px solid #ccc;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0px 4px 4px black;
+}
+.quadradinho1 h2 {
+    margin: 0px;
+}
+.quadradinho2 h2 {
+    margin: 0px;
+}
+.quadradinho3 h2 {
+    margin: 0px;
+}
+.quadradinho4 h2 {
+    margin: 0px;
+}
+.quadradinho5 h2 {
+    margin: 0px;
+}
+.quadradinho6 h2 {
+    margin: 0px;
+}
+.esconder1 {
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.ativo1 {
+    height: 85px;
+    transition: .2s;
+}
+.esconder2 {
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.ativo2 {
+    height: 300px;
+    transition: .2s;
+}
+.esconder3 {
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.ativo3 {
+    height: 230px;
+    transition: .2s;
+}
+.esconder4 {
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.ativo4 {
+    height: 140px;
+    transition: .2s;
+}
+.esconder5 {
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.ativo5 {
+    height: 125px;
+    transition: .2s;
+}
